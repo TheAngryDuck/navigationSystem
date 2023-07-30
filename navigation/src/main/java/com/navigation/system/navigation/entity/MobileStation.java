@@ -11,11 +11,28 @@ public class MobileStation {
     private long id;
 
     @Column(name = "last_known_x_coordinate")
-    private float last_known_x_coordinate;
+    private float lastKnownXCoordinate;
 
     @Column(name = "last_known_y_coordinate")
-    private float last_known_y_coordinate;
+    private float lastKnownYCoordinate;
 
     @OneToMany(mappedBy="mobileStation")
     private Set<Report> reports;
+
+    public long getId() {return id;}
+    public void setId(long id) {
+        this.id = id;
+    }
+    public float getY() {
+        return lastKnownYCoordinate;
+    }
+    public void setY(float y) {
+        this.lastKnownYCoordinate = y;
+    }
+    public float getX() {
+        return lastKnownXCoordinate;
+    }
+    public void setX(float x) {
+        this.lastKnownXCoordinate = x;
+    }
 }
