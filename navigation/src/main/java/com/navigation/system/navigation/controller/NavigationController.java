@@ -1,6 +1,5 @@
 package com.navigation.system.navigation.controller;
 
-import com.navigation.system.navigation.dto.ReportDto;
 import com.navigation.system.navigation.dto.ReportResponse;
 import com.navigation.system.navigation.entity.BaseStation;
 import com.navigation.system.navigation.entity.MobileStation;

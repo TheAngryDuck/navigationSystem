@@ -1,7 +1,6 @@
 package com.navigation.system.navigation.service;
 
 import com.navigation.system.navigation.entity.Report;
-import com.navigation.system.navigation.interfaces.IMobileStationRepository;
 import com.navigation.system.navigation.interfaces.IReportRepository;
 import com.navigation.system.navigation.interfaces.IReportService;
 import org.springframework.beans.factory.annotation.Autowired;
